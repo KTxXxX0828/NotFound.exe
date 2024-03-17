@@ -18,7 +18,7 @@ namespace NotFound
 {
   public class Warn
   {
-    private void Warn_Load()
+    public void Warn_Load()
     {
       NotifyIcon notifyIcon = new NotifyIcon()
       {
@@ -102,4 +102,3 @@ namespace NotFound
       base.Dispose(disposing);
     }
   }
-}

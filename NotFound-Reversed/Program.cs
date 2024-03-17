@@ -30,7 +30,8 @@ namespace NotFound
           Thread.Sleep(millisecondsTimeout);
         }
       }));
-      Application.Run((Form) new Warn());
+      Warn w = new Warn();
+      w.Warn_Load();
     }
   }
 }
